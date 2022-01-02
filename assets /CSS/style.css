@@ -346,25 +346,33 @@ footer p {
       flex: 1 100%;
       text-align: center;
       margin: 10 4 10 4%;
+      padding: 1px;
+    }
+    .flex-row h2 {
+        font-size: 35px;
     }
     .about-info {
       flex: 0 100%;
       flex-wrap: wrap;
       flex-direction: column;
-      margin-right: -25px;
       height: auto;
       width: 90%;
-      margin-left: -90%;
+      margin-left: -94%;
       margin-top: 70%;
     }
+    .about-info h2 {
+    font-size: 30px;
+    }
+
     .examples {
-      flex: 2 100%;
+      flex: 0 100%;
       text-align: center;
       justify-content: center;
     }
   
     .img {
       flex: 0 100%;
+      margin: 0%;
     }
   }
     
