@@ -28,16 +28,17 @@ header {
 header h1 {
     font-weight:bold;
     font-size:46px;
-    font-family: 'Lucida Sans';
+    font-family: cursive;
     margin: 1;
     color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(185, 12, 228, 0.295);
 }
 header a {
     text-decoration: none;
     color: var(--primary-color);
 }
 header nav {
-    margin: 7px 0;
+    margin: 11px 0;
 }
 header nav ul {
     display:flex;
@@ -104,7 +105,7 @@ footer p {
     border-radius: 15px;    
 }   
 
-.about {
+.about-info {
     flex: 50%;
     border: 3px solid var(--secondary-color);
     background-color: rgba(56, 175, 255, 0.8);
@@ -114,14 +115,14 @@ footer p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
-    height: 98%;
+    margin-bottom: 10px;
+    height: 115%;
 }
 .about p {
     font-size: larger;
     padding: 3%;
 }
-.about h2 {
+.about-info h2 {
     font-size: 48px;
     font-weight: bold;
 }
@@ -131,6 +132,7 @@ footer p {
     display: flex;
     flex: 100%;
     margin: 10%;
+    margin-bottom: 1%;
 }
 .flex-row {
     border: 3px solid var(--secondary-color);
@@ -224,7 +226,7 @@ footer p {
     border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
-    font-size: 16px;
+    font-size: 20px;
     color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
@@ -254,35 +256,49 @@ footer p {
   }
 .email {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 6%;
+    font-size: 25px;
+    margin-top: 3%;
 }
 /*Contact Section Ends*/
 
 /*Media Query*/
 @media screen and (max-width: 575px) {
+    .header {
+        padding: 0%;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+         }
     .main {
         flex: 0 100%;
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: center;
+        margin-bottom: 90%;
     }
+    
     .headshot {
         flex: 0 100%;
         flex-wrap: wrap;
         flex-flow: column;
-        margin: 0 10%;
-        order: 1;
+        flex-direction: column;
+        margin-left: -1%;
       }
-    .about {
+    .profilePic {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about-info {
       flex: 0 100%;
       flex-wrap: wrap;
       flex-direction: column;
-      width: 100%;
-      margin-right: 4.5%;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin-right: -15px;
+      height: auto;
+      width: 90%;
+      margin-left: -96%;
+      margin-top: 70%;
     }
     .section-title {
       width: 95%;
@@ -290,13 +306,15 @@ footer p {
     .section {
         flex: 0 100%;
     }
-    .intro p {
+    .about-info p {
       width: 100%;
     }
   
-    .portfolio {
+    .flex-row {
       flex: 0 100%;
-      margin: 0 10%;
+      margin: 0%;
+      width: 100%;
+      padding: 0%;
     }
   
     .contact-info {
@@ -309,20 +327,36 @@ footer p {
 
     .footer {
     flex: 0 100%;
-    font-size: 12px;
+    font-size: 16px;
 }
+    .email {
+    flex: 0 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 768px) {
 
     section {
       padding: 20px 15px;
     }
   
-    .portfolio {
+    .flex-row {
       flex: 1 100%;
       text-align: center;
       margin: 10 4 10 4%;
     }
-  
+    .about-info {
+      flex: 0 100%;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-right: -25px;
+      height: auto;
+      width: 90%;
+      margin-left: -90%;
+      margin-top: 70%;
+    }
     .examples {
       flex: 2 100%;
       text-align: center;
@@ -335,10 +369,13 @@ footer p {
   }
     
 @media screen and (max-width: 980px) {
+
     header {
       padding-bottom: 0;
       justify-content: center;
       position: relative;
+      width: 100%;
+      margin-left: 0%;
     }
   
     header h1 {
@@ -347,7 +384,7 @@ footer p {
     }
   
     header nav ul {
-      margin-top: 20px;
+      margin-top: 10%;
       width: 100%;
       justify-content: center;
     }
@@ -371,18 +408,19 @@ footer p {
     .profilePic {
         flex: 50%;
     }
-    .about {
+    .about-info {
         flex: 0 100%;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
     .headshot {
+        flex: 0 100%; 
         width: 100%;
         height: 100%;
-        flex: 100%; 
+        
     }   
-    .portfolio {
+    .flex-row {
         flex: 0 100%;
     }
     .contact-info {
@@ -393,4 +431,4 @@ footer p {
     .contact-info > * {
         flex: 0 100%;
     }
-};
+}
