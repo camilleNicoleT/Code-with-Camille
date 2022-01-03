@@ -13,3 +13,5 @@ To showcase my work I have created a website with informaiton about myself, a po
   -When clicked you are brought to the live URL.
   
 <img width="1040" alt="Screen Shot 2022-01-02 at 4 15 00 PM" src="https://user-images.githubusercontent.com/94029792/147889897-35abcef7-3ff2-4a4b-974a-9126ec8c1062.png">
+
+## Click this link to see it live! https://camillenicolet.github.io/code-with-camille/
