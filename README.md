@@ -1,6 +1,6 @@
 # Code With Camille
 
-To showcase my work I have created a website with informaiton about myself, a portfolio and contact me section. 
+To showcase my work I have created a website with informaiton about myself, a portfolio and "contact me" section. 
 <img width="1300" alt="Screen Shot 2022-01-02 at 4 14 48 PM" src="https://user-images.githubusercontent.com/94029792/147889900-24b28a4d-7ed9-4177-b2ec-5c616bde2fb5.png">
 
 # Reactive Features
