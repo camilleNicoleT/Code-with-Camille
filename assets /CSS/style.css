@@ -85,7 +85,7 @@ footer p {
 
 /*About Section*/
 .main {
-    display: flex;
+   display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    width: 100%;
@@ -121,7 +121,7 @@ footer p {
 }
 .about p {
     font-size: larger;
-    padding: 3%;
+    padding: 2%;
 }
 .about-info h2 {
     font-size: 48px;
@@ -217,7 +217,7 @@ footer p {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.contact-info < * {
+.contact-info > * {
     flex: 1;
     margin: 15px;
 }
@@ -281,27 +281,30 @@ footer p {
         margin-bottom: 90%;
     }
     
-    .headshot {
-        flex: 0 100%;
+    /* .headshot {
+        flex: 100%;
         flex-wrap: wrap;
         flex-flow: column;
         flex-direction: column;
         margin-left: -1%;
-      }
+      } */
     .profilePic {
         flex-wrap: wrap;
+        flex: 100%;
         flex-direction: column;
     }
     .about-info {
-      flex: 0 100%;
-      flex-wrap: wrap;
+      flex: 100%;
       flex-direction: column;
-      margin-right: -15px;
-      height: auto;
-      width: 90%;
+      margin: 0;
+      padding: 0;
+      /* height: auto;
+      width: 90%; 
       margin-left: -96%;
-      margin-top: 70%;
-    }
+      margin-top: 70%; */
+    
+        } 
+
     .section-title {
       width: 95%;
     }
@@ -353,13 +356,13 @@ footer p {
         font-size: 35px;
     }
     .about-info {
-      flex: 0 100%;
-      flex-wrap: wrap;
+      flex: 100%;
+ 
       flex-direction: column;
       height: auto;
-      width: 90%;
-      margin-left: -94%;
-      margin-top: 70%;
+      /* width: 90%; */
+      /* margin-left: -94%;
+      margin-top: 70%; */
     }
     .about-info h2 {
     font-size: 30px;
