@@ -8,7 +8,7 @@ To showcase my work I have created an application with informaiton about myself,
   <img width="305" alt="Screen Shot 2022-01-02 at 4 14 37 PM" src="https://user-images.githubusercontent.com/94029792/147889899-11562291-4cc6-4c6b-bc38-c0490abb0ab8.png">
 
 # Links to previous work
-  -When you hover over the picture of the Run Buddy Website it grows larger and a blue shadow appears indicating that you can click on it. 
+  -When you hover over the picture of the Indubidubly image it grows larger and a blue shadow appears indicating that you can click on it. 
   
   -When clicked you are brought to the live URL.
   
