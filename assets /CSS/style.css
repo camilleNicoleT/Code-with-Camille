@@ -7,11 +7,17 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
+
 
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color:var(--primary-color);
+    height: 100%;
+    background-image: linear-gradient(315deg, #3935ff 0%, #27008a 74%);
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 /* HEADER / NAV BAR STYLES START */
 header {
@@ -93,6 +99,13 @@ footer p {
    padding: 10 10%;
    margin-bottom: 10%;
 }
+#content-wrap {
+	padding-bottom: 2.5rem;    
+  }
+  #page-container {
+	position: relative;
+	min-height: 100vh;
+  }
 
 .profilePic {
     flex: 50%;
@@ -116,9 +129,10 @@ footer p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 10px;
-    height: 115%;
+    margin-bottom: 20px;
+    height: fit-content
 }
+
 .about p {
     font-size: larger;
     padding: 2%;
@@ -357,7 +371,6 @@ footer p {
     }
     .about-info {
       flex: 100%;
- 
       flex-direction: column;
       height: auto;
       /* width: 90%; */
